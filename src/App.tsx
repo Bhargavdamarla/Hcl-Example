@@ -26,9 +26,9 @@ const App: FC = () => {
       <div className="container my-5">
         {/* Header */}
         <div className="row mb-4">
-          <div className="col-md-12 d-flex justify-content-between align-items-center">
-            <div>
-              <h1 className="mb-2 text-primary">Interactive React App</h1>
+          <div className="col-md-12 text-center d-flex flex-column justify-content-center align-items-center">
+            <div className="mb-3">
+              <h1 className="mb-2 text-primary">React App</h1>
               <p className="text-muted">Experience interactivity with state management</p>
             </div>
             <button
